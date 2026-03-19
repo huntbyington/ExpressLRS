@@ -22,15 +22,19 @@
 #define GPIO_PIN_BUSY PA11 // EXTI11
 #define GPIO_PIN_RST PA12
 
-// ==========================================
-// Radio Chip B
-// ==========================================
-#define GPIO_PIN_NSS_2 PA15
-#define GPIO_PIN_DIO1_2 PA0 // EXTI0
-// D2 is physically connected to PA1
-// D3 is physically connected to PA2
-#define GPIO_PIN_BUSY_2 PB3 // EXTI3
-#define GPIO_PIN_RST_2 PB4
+// // Enable pins for radio chip A
+// #define GPIO_PIN_RX_ENABLE PA8
+// #define GPIO_PIN_TX_ENABLE PA9
+
+// // ==========================================
+// // Radio Chip B
+// // ==========================================
+// #define GPIO_PIN_NSS_2 PA15
+// #define GPIO_PIN_DIO1_2 PA0 // EXTI0
+// // D2 is physically connected to PA1
+// // D3 is physically connected to PA2
+// #define GPIO_PIN_BUSY_2 PB3 // EXTI3
+// #define GPIO_PIN_RST_2 PB4
 
 // ==========================================
 // Communication with Flight Controller (UART)
